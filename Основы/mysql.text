@@ -1,0 +1,11 @@
+INSERT INTO 'table_name' ('prop_name', 'prop_name') VALUES ('prop_value', 'prop_value') // Добавление
+
+SELECT * FROM 'table_name' // Все
+
+SELECT * FROM 'table_name' WHERE 'prop_name' > 3 AND 'prop_name' > 5 // по условию
+
+DELETE FROM 'table_name' WHERE 'prop_name' = 'val' // удаление
+
+UPDATE 'table_name' SET 'prop_name' = 50 WHERE 'prop_name' = 'val' // Обновление записи
+
+SELECT * FROM 'table_name' WHERE 'prop_name' > 3 AND 'prop_name' > 5 ORDER BY 'prop_name' DESC // сортировка по параметру по убыванию
